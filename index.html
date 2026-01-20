@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Putri Varizza Aulia | Professional Portfolio</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;900&amp;family=Playfair+Display:wght@700;900&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"/>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#ee9d2b",
+                        "background-light": "#f8f7f6",
+                        "background-dark": "#221a10",
+                        "slate-blue": "#334155",
+                    },
+                    fontFamily: {
+                        "display": ["Inter", "sans-serif"],
+                        "serif": ["Playfair Display", "serif"],
+                    },
+                    borderRadius: {
+                        "DEFAULT": "0.25rem",
+                        "lg": "0.5rem",
+                        "xl": "0.75rem",
+                        "full": "9999px"
+                    },
+                },
+            },
+        }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+            vertical-align: middle;
+        }
+        
+        /* Elegant gradient dividers */
+        .gradient-divider {
+            background: linear-gradient(90deg, transparent, rgba(238, 157, 43, 0.2), transparent);
+            height: 1px;
+        }
+        
+        /* Smooth hover effects */
+        .card-hover {
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        
+        .card-hover:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 12px 24px rgba(0, 0, 0, 0.1);
+        }
+        
+        /* Subtle glow effect for primary elements */
+        .glow-primary {
+            box-shadow: 0 0 20px rgba(238, 157, 43, 0.15);
+        }
+        
+        /* Smooth scrollbar */
+        ::-webkit-scrollbar {
+            width: 8px;
+        }
+        
+        ::-webkit-scrollbar-track {
+            background: rgba(238, 157, 43, 0.05);
+        }
+        
+        ::-webkit-scrollbar-thumb {
+            background: #ee9d2b;
+            border-radius: 4px;
+        }
+        
+        ::-webkit-scrollbar-thumb:hover {
+            background: #d68620;
+        }
+</style>
+</head>
+<body class="bg-background-light dark:bg-background-dark font-display text-slate-blue dark:text-gray-200 antialiased transition-colors duration-300">
+<!-- Top Navigation -->
+<header class="sticky top-0 z-50 bg-background-light/80 dark:bg-background-dark/80 backdrop-blur-md border-b border-gray-200 dark:border-gray-800">
+<div class="max-w-6xl mx-auto px-6 h-16 flex items-center justify-between">
+<div class="flex items-center gap-2">
+<span class="font-serif text-xl font-bold text-slate-blue dark:text-white">My Portofolio</span>
+</div>
+<nav class="hidden md:flex items-center gap-8">
+<a class="text-sm font-medium hover:text-primary transition-colors" href="#experiences">Experiences</a>
+<a class="text-sm font-medium hover:text-primary transition-colors" href="#education">Education</a>
+<a class="text-sm font-medium hover:text-primary transition-colors" href="#projects">Projects</a>
+<a class="text-sm font-medium hover:text-primary transition-colors" href="#skills">Skills</a>
+<a class="bg-primary text-white px-5 py-2 rounded-lg text-sm font-bold tracking-wide hover:opacity-90 transition-opacity" 
+   href="https://mail.google.com/mail/?view=cm&fs=1&to=varizzaputri@gmail.com"
+   target="_blank">
+    Hire Me
+</a>
+</nav>
+<div class="md:hidden">
+<span class="material-symbols-outlined">menu</span>
+</div>
+</div>
+</header>
+<main class="max-w-4xl mx-auto px-6 py-12 space-y-32">
+<!-- Hero Section -->
+<section class="flex flex-col items-center text-center py-20" data-aos="fade-up" data-aos-duration="800">
+<div class="mb-12 flex justify-center" data-aos="zoom-in" data-aos-delay="100" data-aos-duration="800">
+<div class="relative">
+<div class="absolute inset-0 rounded-3xl bg-gradient-to-br from-primary/30 to-primary/10 blur-2xl"></div>
+<img src="assets/IMG_1061.JPG" alt="Putri Varizza Aulia" class="relative w-48 h-48 rounded-3xl object-cover border-4 border-white dark:border-gray-800 shadow-2xl">
+<div class="absolute -bottom-2 -right-2 px-4 py-2 rounded-full bg-primary text-white text-xs font-bold shadow-lg">
+Available
+</div>
+</div>
+</div>
+<div class="mb-6" data-aos="fade-down" data-aos-delay="100">
+<span class="inline-block py-1 px-3 rounded-full bg-primary/10 text-primary text-xs font-bold uppercase tracking-widest">Available for Internship</span>
+</div>
+<h1 class="font-serif text-5xl md:text-7xl font-black text-slate-blue dark:text-white mb-6 leading-tight" data-aos="zoom-in" data-aos-delay="200" data-aos-duration="800">
+                Putri Varizza Aulia
+            </h1>
+<p class="max-w-2xl text-lg md:text-xl text-slate-blue/70 dark:text-gray-400 font-light leading-relaxed mb-10" data-aos="fade-up" data-aos-delay="300" data-aos-duration="800">
+                Computer Engineering Student &amp; <span class="text-slate-blue dark:text-white font-medium">UI/UX Enthusiast</span>. 
+                Dedicated to crafting elegant digital experiences through clean code and thoughtful design.
+            </p>
+<div class="flex flex-wrap justify-center gap-4" data-aos="fade-up" data-aos-delay="400" data-aos-duration="800">
+<a class="flex items-center gap-2 px-6 py-3 rounded-xl bg-slate-blue text-white font-semibold hover:bg-slate-700 transition-all" href="https://mail.google.com/mail/?view=cm&fs=1&to=varizzaputri@gmail.com">
+<span class="material-symbols-outlined text-sm">mail</span>
+                    Email Me
+                </a>
+<a class="flex items-center gap-2 px-6 py-3 rounded-xl bg-white border border-gray-200 text-slate-blue font-semibold hover:shadow-lg transition-all dark:bg-gray-800 dark:border-gray-700 dark:text-white" href="assets/CV ATS - Putri Varizza Aulia.docx" download>
+<span class="material-symbols-outlined text-sm">description</span>
+                    Resume
+                </a>
+</div>
+</section>
+<!-- Experiences Section -->
+<section class="scroll-mt-24" id="experiences" data-aos="fade-up" data-aos-duration="800">
+<div class="mb-16">
+<div class="flex items-center gap-4 mb-10">
+<h2 class="font-serif text-3xl font-bold">Experiences</h2>
+<div class="gradient-divider flex-1"></div>
+</div>
+<div class="h-1 w-20 bg-gradient-to-r from-primary to-transparent rounded-full"></div>
+</div>
+<div class="relative space-y-12 before:absolute before:left-[11px] before:top-2 before:h-[calc(100%-16px)] before:w-0.5 before:bg-primary/20">
+<!-- Exp 1 -->
+<div class="relative pl-10" data-aos="fade-left" data-aos-duration="600">
+<div class="absolute left-0 top-1.5 size-6 rounded-full bg-primary flex items-center justify-center ring-4 ring-background-light dark:ring-background-dark">
+<span class="material-symbols-outlined text-white text-[14px]">gavel</span>
+</div>
+<div>
+<span class="text-xs font-bold text-primary uppercase tracking-tighter">Apr 2025 – Feb 2026</span>
+    <h3 class="text-xl font-bold mt-1">Dewan Perwakilan Mahasiswa</h3>
+    <p class="text-slate-blue/60 dark:text-gray-400 font-medium mb-3">Universitas Pendidikan Indonesia • Staff of Legislature</p>
+    <ul class="text-sm leading-relaxed max-w-2xl list-disc list-inside">
+    <li>Chief Organizer of PEMIRA DPM UPI Cibiru</li>
+    <p class="text-sm leading-relaxed max-w-2xl">
+                       I presided over the selection and ratification of the leaders for the election committees (KPU, MPU, and DPPU). This process served as the foundational step for campus democracy at UPI Cibiru, paving the way for the election of the BEM President and Vice President for the 2026 term.
+                        </p>
+</ul>
+</div>
+</div>
+<!-- Exp 2 -->
+<div class="relative pl-10" data-aos="fade-left" data-aos-delay="100" data-aos-duration="600">
+    <div class="absolute left-0 top-1.5 size-6 rounded-full bg-primary flex items-center justify-center ring-4 ring-background-light dark:ring-background-dark">
+        <span class="material-symbols-outlined text-white text-[14px]">groups</span>
+</div>
+<div>
+    <span class="text-xs font-bold text-primary uppercase tracking-tighter">Mar 2024 – Jan 2026</span>
+    <h3 class="text-xl font-bold mt-1">HIMA TEKKOM</h3>
+    <p class="text-slate-blue/60 dark:text-gray-400 font-medium mb-3">Universitas Pendidikan Indonesia • Staff of Internal Affairs and Aspiracy</p>
+    <ul class="text-sm leading-relaxed max-w-2xl list-disc list-inside space-y-1">
+        <li>Chief Organizer of STUKOM HIMA TEKKOM</li>
+        <p class="text-sm leading-relaxed max-w-2xl">
+                        Spearheaded the planning and execution of a comparative study event with Energy Engineering POLBAN, successfully enhancing cross-institutional networking and student competency.
+                        </p>
+        <li>Supervisor of Media Information HIMA TEKKOM</li>
+        <p class="text-sm leading-relaxed max-w-2xl">
+                       Overseeing the production and distribution of information across various media platforms. Performing supervisory functions by providing solutions to team obstacles and evaluating department performance on a regular basis.
+                        </p>
+    </ul>
+    
+</div>
+</div>
+</div>
+</section>
+<!-- Education Section -->
+<section class="scroll-mt-24" id="education" data-aos="fade-up" data-aos-duration="800">
+<div class="mb-16">
+<div class="flex items-center gap-4 mb-10">
+<h2 class="font-serif text-3xl font-bold">Education</h2>
+<div class="gradient-divider flex-1"></div>
+</div>
+<div class="h-1 w-20 bg-gradient-to-r from-primary to-transparent rounded-full"></div>
+</div>
+<div class="grid gap-6">
+<div class="p-6 rounded-xl bg-white dark:bg-gray-800/50 border border-gray-100 dark:border-gray-700 shadow-sm flex flex-col md:flex-row md:items-center justify-between gap-4 card-hover" data-aos="zoom-in" data-aos-duration="600">
+<div class="flex gap-4 items-start">
+<div class="p-3 rounded-lg bg-primary/10 text-primary">
+<span class="material-symbols-outlined">school</span>
+</div>
+<div>
+<h3 class="font-bold text-lg">Universitas Pendidikan Indonesia</h3>
+<p class="text-sm text-slate-blue/60 dark:text-gray-400">Student at Computer Engineering</p>
+</div>
+</div>
+<div class="text-right">
+<div class="inline-block px-3 py-1 rounded-full bg-primary text-white text-sm font-bold">GPA: 3.63 / 4.00</div>
+<p class="text-xs mt-2 text-slate-blue/40 dark:text-gray-500">Expected Graduation: 2026</p>
+</div>
+</div>
+<div class="p-6 rounded-xl bg-white dark:bg-gray-800/50 border border-gray-100 dark:border-gray-700 shadow-sm flex flex-col md:flex-row md:items-center justify-between gap-4 card-hover">
+<div class="flex gap-4 items-start">
+<div class="p-3 rounded-lg bg-primary/10 text-primary">
+<span class="material-symbols-outlined">account_balance</span>
+</div>
+<div>
+<h3 class="font-bold text-lg">SMAN 3 Bantul (Yogyakarta)</h3>
+<p class="text-sm text-slate-blue/60 dark:text-gray-400">High School Diploma, Natural Sciences</p>
+</div>
+</div>
+<div class="text-right">
+<p class="text-sm font-medium">Graduated 2023</p>
+</div>
+</div>
+</div>
+</section>
+<!-- Projects Section -->
+<section class="scroll-mt-24" id="projects" data-aos="fade-up" data-aos-duration="800">
+<div class="mb-16">
+<div class="flex items-center gap-4 mb-10">
+<h2 class="font-serif text-3xl font-bold">Projects</h2>
+<div class="gradient-divider flex-1"></div>
+</div>
+<div class="h-1 w-20 bg-gradient-to-r from-primary to-transparent rounded-full"></div>
+</div>
+<div class="grid md:grid-cols-3 gap-6">
+<!-- Hardware Projects -->
+<div class="group p-0 rounded-xl bg-white dark:bg-gray-800 border border-gray-100 dark:border-gray-700 hover:border-primary transition-all shadow-sm overflow-hidden card-hover" data-aos="fade-up" data-aos-duration="600">
+<div class="w-full h-40 bg-gray-100 dark:bg-gray-900 overflow-hidden">
+<img src="assets/deteksi hewan ternak.jpeg" alt="GPS-Based Livestock Detection" class="w-full h-full object-cover">
+</div>
+<div class="p-5">
+<div class="flex items-start gap-4 mb-4">
+<div class="p-3 rounded-lg bg-primary/10 text-primary flex-shrink-0">
+<span class="material-symbols-outlined">settings_input_component</span>
+</div>
+<div class="flex-1">
+<h4 class="font-bold text-base leading-tight">GPS-Based Livestock Detection</h4>
+<p class="text-[11px] text-primary font-semibold mt-1">Hardware</p>
+</div>
+</div>
+<p class="text-xs text-slate-blue/60 dark:text-gray-400 mb-4 leading-relaxed">Real-time tracking system with ESP32, GPS and Pulse Sensor integrated with Firebase.</p>
+<div class="flex gap-2 flex-wrap">
+<span class="text-[10px] px-2 py-0.5 rounded bg-gray-100 dark:bg-gray-700 uppercase font-bold">C++</span>
+<span class="text-[10px] px-2 py-0.5 rounded bg-gray-100 dark:bg-gray-700 uppercase font-bold">Firebase</span>
+</div>
+</div>
+</div>
+
+<div class="group p-0 rounded-xl bg-white dark:bg-gray-800 border border-gray-100 dark:border-gray-700 hover:border-primary transition-all shadow-sm overflow-hidden" data-aos="fade-up" data-aos-delay="100" data-aos-duration="600">
+<div class="w-full h-40 bg-gray-100 dark:bg-gray-900 overflow-hidden">
+<img src="assets/motor dc trainer.jpeg" alt="DC Motor Trainer" class="w-full h-full object-cover">
+</div>
+<div class="p-5">
+<div class="flex items-start gap-4 mb-4">
+<div class="p-3 rounded-lg bg-primary/10 text-primary flex-shrink-0">
+<span class="material-symbols-outlined">precision_manufacturing</span>
+</div>
+<div class="flex-1">
+<h4 class="font-bold text-base leading-tight">DC Motor Trainer</h4>
+<p class="text-[11px] text-primary font-semibold mt-1">Hardware</p>
+</div>
+</div>
+<p class="text-xs text-slate-blue/60 dark:text-gray-400 mb-4 leading-relaxed">Educational mechatronics training system for motor control and embedded systems principles.</p>
+<div class="flex gap-2 flex-wrap">
+<span class="text-[10px] px-2 py-0.5 rounded bg-gray-100 dark:bg-gray-700 uppercase font-bold">Robotics</span>
+<span class="text-[10px] px-2 py-0.5 rounded bg-gray-100 dark:bg-gray-700 uppercase font-bold">Embedded</span>
+</div>
+</div>
+</div>
+
+<div class="group p-0 rounded-xl bg-white dark:bg-gray-800 border border-gray-100 dark:border-gray-700 hover:border-primary transition-all shadow-sm overflow-hidden" data-aos="fade-up" data-aos-delay="200" data-aos-duration="600">
+<div class="w-full h-40 bg-gray-100 dark:bg-gray-900 overflow-hidden">
+<img src="assets/sound level meter.jpg" alt="Sound Level Meter" class="w-full h-full object-cover">
+</div>
+<div class="p-5">
+<div class="flex items-start gap-4 mb-4">
+<div class="p-3 rounded-lg bg-primary/10 text-primary flex-shrink-0">
+<span class="material-symbols-outlined">light_mode</span>
+</div>
+<div class="flex-1">
+<h4 class="font-bold text-base leading-tight">Sound Level Meter</h4>
+<p class="text-[11px] text-primary font-semibold mt-1">Hardware</p>
+</div>
+</div>
+<p class="text-xs text-slate-blue/60 dark:text-gray-400 mb-4 leading-relaxed">Arduino-based acoustic monitoring system with visual LED feedback for sound level detection.</p>
+<div class="flex gap-2 flex-wrap">
+<span class="text-[10px] px-2 py-0.5 rounded bg-gray-100 dark:bg-gray-700 uppercase font-bold">Arduino</span>
+<span class="text-[10px] px-2 py-0.5 rounded bg-gray-100 dark:bg-gray-700 uppercase font-bold">Sensors</span>
+</div>
+</div>
+</div>
+
+<!-- Software Projects -->
+<div class="group p-0 rounded-xl bg-white dark:bg-gray-800 border border-gray-100 dark:border-gray-700 hover:border-primary transition-all shadow-sm overflow-hidden" data-aos="fade-up" data-aos-delay="300" data-aos-duration="600">
+<div class="w-full h-40 bg-gray-100 dark:bg-gray-900 overflow-hidden">
+<img src="assets/TETOME.png" alt="TETOME Waste Management" class="w-full h-full object-cover">
+</div>
+<div class="p-5">
+<div class="flex items-start gap-4 mb-4">
+<div class="p-3 rounded-lg bg-blue-100 dark:bg-blue-900/30 text-blue-600 dark:text-blue-400 flex-shrink-0">
+<span class="material-symbols-outlined">recycling</span>
+</div>
+<div class="flex-1">
+<h4 class="font-bold text-base leading-tight">TETOME</h4>
+<p class="text-[11px] text-blue-600 dark:text-blue-400 font-semibold mt-1">Software</p>
+</div>
+</div>
+<p class="text-xs text-slate-blue/60 dark:text-gray-400 mb-4 leading-relaxed">Responsive web app connecting users with waste management solutions using token-based rewards.</p>
+<div class="flex gap-2 flex-wrap">
+<span class="text-[10px] px-2 py-0.5 rounded bg-gray-100 dark:bg-gray-700 uppercase font-bold">React.js</span>
+<span class="text-[10px] px-2 py-0.5 rounded bg-gray-100 dark:bg-gray-700 uppercase font-bold">Tailwind</span>
+</div>
+</div>
+</div>
+
+<div class="group p-0 rounded-xl bg-white dark:bg-gray-800 border border-gray-100 dark:border-gray-700 hover:border-primary transition-all shadow-sm overflow-hidden" data-aos="fade-up" data-aos-delay="400" data-aos-duration="600">
+<div class="w-full h-40 bg-gray-100 dark:bg-gray-900 overflow-hidden">
+<img src="assets/personal_portofolio.png" alt="Personal Portfolio" class="w-full h-full object-cover">
+</div>
+<div class="p-5">
+<div class="flex items-start gap-4 mb-4">
+<div class="p-3 rounded-lg bg-blue-100 dark:bg-blue-900/30 text-blue-600 dark:text-blue-400 flex-shrink-0">
+<span class="material-symbols-outlined">language</span>
+</div>
+<div class="flex-1">
+<h4 class="font-bold text-base leading-tight">Personal Portfolio</h4>
+<p class="text-[11px] text-blue-600 dark:text-blue-400 font-semibold mt-1">Software</p>
+</div>
+</div>
+<p class="text-xs text-slate-blue/60 dark:text-gray-400 mb-4 leading-relaxed">Professional portfolio website showcasing experience, skills, and projects with modern design.</p>
+<div class="flex gap-2 flex-wrap">
+<span class="text-[10px] px-2 py-0.5 rounded bg-gray-100 dark:bg-gray-700 uppercase font-bold">Tailwind</span>
+<span class="text-[10px] px-2 py-0.5 rounded bg-gray-100 dark:bg-gray-700 uppercase font-bold">HTML</span>
+</div>
+</div>
+</div>
+
+<!-- UI/UX Design Projects -->
+<div class="group p-0 rounded-xl bg-white dark:bg-gray-800 border border-gray-100 dark:border-gray-700 hover:border-primary transition-all shadow-sm overflow-hidden" data-aos="fade-up" data-aos-delay="500" data-aos-duration="600">
+<div class="w-full h-40 bg-gray-100 dark:bg-gray-900 overflow-hidden">
+<img src="assets/Movie web.png" alt="Mobile App UI Design" class="w-full h-full object-cover">
+</div>
+<div class="p-5">
+<div class="flex items-start gap-4 mb-4">
+<div class="p-3 rounded-lg bg-purple-100 dark:bg-purple-900/30 text-purple-600 dark:text-purple-400 flex-shrink-0">
+<span class="material-symbols-outlined">smartphone</span>
+</div>
+<div class="flex-1">
+<h4 class="font-bold text-base leading-tight">Movie APP Desain Interface</h4>
+<p class="text-[11px] text-purple-600 dark:text-purple-400 font-semibold mt-1">Design</p>
+</div>
+</div>
+<p class="text-xs text-slate-blue/60 dark:text-gray-400 mb-4 leading-relaxed">Interface design for movie app</p>
+<div class="flex gap-2 flex-wrap">
+<span class="text-[10px] px-2 py-0.5 rounded bg-gray-100 dark:bg-gray-700 uppercase font-bold">Figma</span>
+<span class="text-[10px] px-2 py-0.5 rounded bg-gray-100 dark:bg-gray-700 uppercase font-bold">Prototype</span>
+</div>
+</div>
+</div>
+
+<div class="group p-0 rounded-xl bg-white dark:bg-gray-800 border border-gray-100 dark:border-gray-700 hover:border-primary transition-all shadow-sm overflow-hidden" data-aos="fade-up" data-aos-delay="600" data-aos-duration="600">
+<div class="w-full h-40 bg-gray-100 dark:bg-gray-900 overflow-hidden">
+<img src="assets/LANDING PAGE WEB.png" alt="Web Interface Design" class="w-full h-full object-cover">
+</div>
+<div class="p-5">
+<div class="flex items-start gap-4 mb-4">
+<div class="p-3 rounded-lg bg-purple-100 dark:bg-purple-900/30 text-purple-600 dark:text-purple-400 flex-shrink-0">
+<span class="material-symbols-outlined">dashboard_customize</span>
+</div>
+<div class="flex-1">
+<h4 class="font-bold text-base leading-tight">Landing Page PMMK Website</h4>
+<p class="text-[11px] text-purple-600 dark:text-purple-400 font-semibold mt-1">Design</p>
+</div>
+</div>
+<p class="text-xs text-slate-blue/60 dark:text-gray-400 mb-4 leading-relaxed">Landing page for PMMK website</p>
+<div class="flex gap-2 flex-wrap">
+<span class="text-[10px] px-2 py-0.5 rounded bg-gray-100 dark:bg-gray-700 uppercase font-bold">Figma</span>
+<span class="text-[10px] px-2 py-0.5 rounded bg-gray-100 dark:bg-gray-700 uppercase font-bold">Web Design</span>
+</div>
+</div>
+</div>
+</section>
+<!-- Skills & Achievements -->
+<section class="scroll-mt-24" id="skills" data-aos="fade-up" data-aos-duration="800">
+<div class="mb-16">
+<div class="flex items-center gap-4 mb-10">
+<h2 class="font-serif text-3xl font-bold">Skills &amp; Achievements</h2>
+<div class="gradient-divider flex-1"></div>
+</div>
+<div class="h-1 w-20 bg-gradient-to-r from-primary to-transparent rounded-full"></div>
+</div>
+<div class="grid md:grid-cols-3 gap-8">
+<!-- Hard Skills -->
+<div class="md:col-span-2 space-y-8">
+<div>
+<h3 class="text-xs font-bold text-primary uppercase tracking-widest mb-4">Technical Proficiency</h3>
+<div class="flex flex-wrap gap-2">
+<span class="px-3 py-1.5 rounded bg-primary/5 border border-primary/10 text-xs font-semibold">React.js</span>
+<span class="px-3 py-1.5 rounded bg-primary/5 border border-primary/10 text-xs font-semibold">C++ / Embedded</span>
+<span class="px-3 py-1.5 rounded bg-primary/5 border border-primary/10 text-xs font-semibold">Figma</span>
+<span class="px-3 py-1.5 rounded bg-primary/5 border border-primary/10 text-xs font-semibold">Tailwind CSS</span>
+<span class="px-3 py-1.5 rounded bg-primary/5 border border-primary/10 text-xs font-semibold">UI/UX Design</span>
+<span class="px-3 py-1.5 rounded bg-primary/5 border border-primary/10 text-xs font-semibold">Git/GitHub</span>
+</div>
+</div>
+<div>
+<h3 class="text-xs font-bold text-primary uppercase tracking-widest mb-4">Soft Skills</h3>
+<div class="flex flex-wrap gap-2">
+<span class="px-3 py-1.5 rounded bg-slate-blue/5 dark:bg-white/5 text-xs font-semibold">Public Speaking</span>
+<span class="px-3 py-1.5 rounded bg-slate-blue/5 dark:bg-white/5 text-xs font-semibold">Leadership</span>
+<span class="px-3 py-1.5 rounded bg-slate-blue/5 dark:bg-white/5 text-xs font-semibold">Analytical Thinking</span>
+<span class="px-3 py-1.5 rounded bg-slate-blue/5 dark:bg-white/5 text-xs font-semibold">Team Collaboration</span>
+</div>
+</div>
+</div>
+<!-- Achievements Card -->
+<div class="p-6 rounded-2xl bg-gradient-to-br from-primary to-orange-600 text-white shadow-xl flex flex-col justify-between glow-primary" data-aos="bounce" data-aos-duration="800">
+<div>
+<span class="material-symbols-outlined text-4xl mb-4">verified</span>
+<h3 class="text-xl font-bold leading-tight">IBM AI Practitioner Certification</h3>
+<p class="text-sm opacity-80 mt-2 italic">Issued by IBM SkillsBuild</p>
+</div>
+<div class="mt-8">
+</div>
+</div>
+</div>
+</section>
+<!-- Contact Section / Footer -->
+<section class="border-t border-gray-200 dark:border-gray-800 pt-16 pb-20" data-aos="fade-up" data-aos-duration="800">
+<div class="text-center">
+<h2 class="font-serif text-3xl font-bold mb-6">Let's Connect</h2>
+<div class="flex justify-center gap-8 mb-12">
+<a class="group flex flex-col items-center gap-2" href="https://mail.google.com/mail/?view=cm&fs=1&to=varizzaputri@gmail.com">
+<div class="size-12 rounded-full bg-white dark:bg-gray-800 border border-gray-200 dark:border-gray-700 flex items-center justify-center group-hover:bg-primary group-hover:text-white transition-all">
+<span class="material-symbols-outlined">alternate_email</span>
+</div>
+<span class="text-xs font-medium opacity-60">Email</span>
+</a>
+<a class="group flex flex-col items-center gap-2" href="https://www.linkedin.com/in/putri-varizza-13904928a">
+<div class="size-12 rounded-full bg-white dark:bg-gray-800 border border-gray-200 dark:border-gray-700 flex items-center justify-center group-hover:bg-[#0077b5] group-hover:text-white transition-all">
+<span class="material-symbols-outlined">link</span>
+</div>
+<span class="text-xs font-medium opacity-60">LinkedIn</span>
+</a>
+<a class="group flex flex-col items-center gap-2" href="https://wa.me/6287783914553">
+<div class="size-12 rounded-full bg-white dark:bg-gray-800 border border-gray-200 dark:border-gray-700 flex items-center justify-center group-hover:bg-slate-900 group-hover:text-white transition-all">
+<span class="material-symbols-outlined">smartphone</span>
+</div>
+<span class="text-xs font-medium opacity-60">Phone</span>
+</a>
+</div>
+<p class="text-sm opacity-40">© 2024 Putri Varizza Aulia. </p>
+</div>
+</section>
+</main>
+<!-- Background Decoration -->
+<div class="fixed top-0 left-0 w-full h-full -z-10 pointer-events-none overflow-hidden opacity-20">
+<div class="absolute -top-24 -left-24 size-96 rounded-full bg-primary/20 blur-3xl"></div>
+<div class="absolute top-1/2 -right-24 size-80 rounded-full bg-blue-500/10 blur-3xl"></div>
+</div>
+<!-- Initialize AOS -->
+<script>
+    AOS.init({
+        duration: 600,
+        easing: 'ease-out-cubic',
+        once: false,
+        offset: 100,
+        delay: 0
+    });
+</script>
+</body></html>
